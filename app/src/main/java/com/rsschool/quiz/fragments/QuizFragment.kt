@@ -1,14 +1,13 @@
 package com.rsschool.quiz.fragments
 
-import android.content.Context
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.RadioButton
 import androidx.core.os.bundleOf
 import androidx.core.view.get
+import androidx.fragment.app.Fragment
 import com.rsschool.quiz.databinding.FragmentQuizBinding
 import com.rsschool.quiz.interfaces.OnClosePressedListener
 import com.rsschool.quiz.interfaces.OnNextPressedListener

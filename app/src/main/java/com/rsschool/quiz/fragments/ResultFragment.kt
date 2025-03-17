@@ -41,10 +41,7 @@ class ResultFragment : Fragment() {
                 intent.setType("text/plain")
                 intent.putExtras(
                     bundleOf(
-                        Intent.EXTRA_TEXT to """
-                        My result is ${String.format("%.2f %%", resultPercent)}!
-                        That was an awesome Quiz, and i would like to share it with you!
-                    """.trimIndent()
+                        Intent.EXTRA_TEXT to resources.getString(R.string.result_share, resultPercent)
                     )
                 )
                 startActivity(intent)

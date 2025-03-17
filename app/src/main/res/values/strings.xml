@@ -3,5 +3,9 @@
 
     <string name="next">Next</string>
     <string name="previous">Previous</string>
-    <string name="result">Your result: %.2f %%</string>
+    <string name="result">Your result: %.2f%%</string>
+    <string name="result_share">
+        My result is %.2f%%!
+        \nThat was an awesome Quiz, and i would like to share it with you!
+    </string>
 </resources>
